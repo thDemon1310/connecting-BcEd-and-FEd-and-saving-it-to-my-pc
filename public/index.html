@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <form action="" method="post">
+        <tr>
+          <td>Enter the name of your file:</td>
+          <td>
+            <input
+              type="text"
+              name="Fname"
+              id="fName"
+              placeholder="Enter file name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Enter the type of file you want to create:</label>
+          </td>
+          <td>
+            <select name="fileType" id="fileType">
+              <option selected disabled>Select the option</option>
+              <option value="md">MarkDown(.md)</option>
+              <option value="txt">TextFile(.txt)</option>
+              <option value="html">HtmlFile(.html)</option>
+              <!-- <option value="md">MarkDown</option> -->
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="content">Enter the content:</label></td>
+          <td>
+            <textarea
+              name="content"
+              id="infoContent"
+              placeholder="Enter the content"
+            ></textarea>
+          </td>
+        </tr>
+        <tr class="submit">
+          <td colspan="2">
+            <input
+              id="sub"
+              type="button"
+              value="submit"
+              disabled
+            />
+          </td>
+        </tr>
+      </form>
+    </table>
+    <script src="script.js"></script>
+    <!-- <script type="module" src="main.mjs"></script> -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 25px;
+}
+input,
+select,
+textarea {
+  font-size: 25px;
+}
